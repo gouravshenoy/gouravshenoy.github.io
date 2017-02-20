@@ -2,7 +2,9 @@
 title: Gourav Shenoy’s Blog
 email: goshenoy@indiana.edu
 description: > # this means to ignore newlines until "baseurl:"
-  I am a Research Asssistant at the <a href="https://sgrc.iu.edu/" target="_blank">Science Gateway Research Center</a> at Indiana University. A results-driven, customer-focused, articulate and analytic Software Engineer who can think “out of the box”. Strong in design, integration and implementing. Expert in Java/J2EE, OpenStack cloud technology, PaaS platform such as IBM BlueMix and public clouds such as IBM SoftLayer, Amazon EC2, & Numergy; along with database analysis and design. Skilled in developing high quality code and architectural systems research. Strong written and verbal communications. Interested in a challenging technical track career in an application development or research environment.
+  <p align="justify">I am a Research Asssistant at the <a href="https://sgrc.iu.edu/" target="_blank">Science Gateway Research Center</a> at Indiana University.</p>
+  <p align="justify">A results-driven, customer-focused, articulate and analytic Software Engineer who can think “out of the box”. Strong in design, integration and implementing. Expert in Java/J2EE, cloud technologies such as OpenStack & Docker, PaaS platforms such as IBM BlueMix, AWS and public clouds such as EC2, SoftLayer and Azure; along with database analysis and design.</p>
+  <p align="justify">Skilled in developing high quality code and architectural systems research. Strong written and verbal communications. Interested in a challenging technical track career in an application development or research environment.</p>
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: http://gouravshenoy.github.io # the base hostname & protocol for your site
 twitter_username: GouravShenoy

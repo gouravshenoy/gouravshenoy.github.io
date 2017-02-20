@@ -4,10 +4,9 @@ title:  "Distributed Workload Management"
 date:   2017-02-10 18:00:00
 categories: airavata-courses spring17
 tags: workload distributed
-image: /images/workload_mgmt.jpg
 ---
 # Distributed Workload Management
-This report mostly contains links to Wiki pages written to address different aspects of the theme: **distributed workload management**, and are part of this repository. You can find and navigate through all of them [HERE](https://github.com/airavata-courses/spring17-workload-management/wiki).
+This report mostly contains links to Wiki pages written to address different aspects of the theme: **distributed workload management**, and are part of [this repository](https://github.com/airavata-courses/spring17-workload-management). You can find and navigate through all of them [HERE](https://github.com/airavata-courses/spring17-workload-management/wiki).
 
 ## Problem Statement
 Through this theme we intend to find the best possible solution to the issue of managing workloads, in a distributed environment with a micro-services based architecture, with emphasis on how these would benefit Apache Airavata. This leads to finding the best way that different micro-services (eg: Airavata micro-services) should communicate and distribute work. A lot has been written about the problem statement and requirements in the main [Wiki page](https://github.com/airavata-courses/spring17-workload-management/wiki).
@@ -24,10 +23,15 @@ Thanks to our understanding of Apache Mesos/Aurora architecture, we were able to
 * [KB] Messaging infrastructures : [Wiki link](https://github.com/airavata-courses/spring17-workload-management/wiki/Messaging-infrastructures)
 
 ## Solution Evaluations
-Each Wiki page has a detailed analysis of the respective topic. Based on the Apache Airavata mailing list discussions ([see here](http://mail-archives.apache.org/mod_mbox/airavata-dev/201702.mbox/%3CFAC2EB20-DE9D-466D-A803-48A42290F5C7%40indiana.edu%3E)), we evaluated all possible solutions and had a conceptual agreement towards the Mesos inspired design.
+Each Wiki page has a detailed analysis of the respective topic. Based on the Apache Airavata mailing list discussions ([see here](http://mail-archives.apache.org/mod_mbox/airavata-dev/201702.mbox/%3CFAC2EB20-DE9D-466D-A803-48A42290F5C7%40indiana.edu%3E)), we evaluated all possible solutions and had a conceptual agreement towards the Mesos inspired design (see figure below).
+
+<img src="/images/workload_mgmt.jpg" alt="Mesos inspired design" style="height:70%;width:100%">
 
 ## Conclusion
 We have decided to start a proof-of-concept implementation of the finalized design (Mesos inspired centralized architecture). We will be creating Git issues targeting main building blocks of the design, and members are free to take up and start working on each component as they wish. There will be new Wiki pages added subsequently as we make progress. This will include instructions to build/compile, deploy, and run the code.
+
+## GitHub Commits
+We are in the development phase, and the prototype is not completely ready. Currently, I have implemented a JobSubmissionTask (which will be part of a worker service). This uses Apache Aurora to schedule a Job on Apache Mesos cloud infrastructure. My commits to GitHub can be [tracked here](https://github.com/airavata-courses/spring17-workload-management/commits/develop?author=gouravshenoy).
 
 ## Airavata Dev Mailing List Discussions
 Below are links to Apache Airavata developer mailing list discussions which I have contributed to.
@@ -39,4 +43,4 @@ Below are links to Apache Airavata developer mailing list discussions which I ha
 * Final design using centralized-state : [LINK](http://mail-archives.apache.org/mod_mbox/airavata-dev/201702.mbox/%3C1BD69733-6E99-4B34-B347-4667DC6A3337%40indiana.edu%3E)
 
 ## Github Issues
-We have created Github issues to track the progress of implementation and to resolve any design conflicts via discussions. The issues can be found [HERE](https://github.com/airavata-courses/spring17-workload-management/issues) 
+I have created Github issues to track the progress of implementation and to resolve any design conflicts via discussions. The issues can be found [HERE](https://github.com/airavata-courses/spring17-workload-management/issues) 
