@@ -38,7 +38,11 @@ For testing purpose we have written unit-tests for each feature. The basic flow 
 5. Test the end-to-end flow using a mock Orchestrator in the ```SchedulerTest.java``` file in the Scheduler project.
 
 ## Gossip protocol using SERF
-I have setup [SERF](https://www.serf.io) on the worker and scheduler nodes to perform cluster membership using gossip protocol.
+I have setup [SERF](https://www.serf.io) on the worker and scheduler nodes to perform cluster membership using gossip protocol. The purpose of using SERF is to enable the following:
+* If a worker joins/leaves/crashes, the scheduler is informed and can take some action.
+* Workers can communicate their attributes such as task execution capabilities, system performance, etc to the Scheduler. This will help the Scheduler make informed decisions such as which worker to forward the task execution request.
+
+Currently I have configured the Scheduler SERF agent to send an email to admin (myself) via handlers, in case any of the workers go down.
 
 ## Github Commits
 All commits are currently being made to the **develop** branch. My GitHub commits can be [tracked here](https://github.com/airavata-courses/spring17-workload-management/commits/develop?author=gouravshenoy).
