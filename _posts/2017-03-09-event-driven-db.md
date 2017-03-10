@@ -2,7 +2,7 @@
 layout: post
 title:  "Event Driven Database Replication for Apache Airavata"
 date:   2017-03-09 17:00:00
-categories: airavata-courses spring17
+categories: apache-airavata spring17
 tags: databases microservices event-driven
 ---
 # Event Driven Database Replication for Apache Airavata
@@ -40,7 +40,7 @@ Below are links to Apache Airavata developer mailing list discussions which I ha
 * Introducing the theme : [LINK](http://mail-archives.apache.org/mod_mbox/airavata-dev/201702.mbox/%3CFAC2EB20-DE9D-466D-A803-48A42290F5C7%40indiana.edu%3E)
 
 ## Airavata JIRA Entry
-Please see: https://issues.apache.org/jira/browse/AIRAVATA-2338
+Please see: [JIRA LINK](https://issues.apache.org/jira/browse/AIRAVATA-2338)
 
 ## References
 1. [A Database-Per-Microservice Architecture.](http://microservices.io/patterns/data/database-per-service.html)
