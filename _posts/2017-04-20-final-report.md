@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Distributed Task Execution & Event-Driven DB Management Contd."
-date:   2017-04-6 20:00:00
+title:  "Science Gateway Architectures: Final Report"
+date:   2017-04-20 20:00:00
 categories: apache-airavata spring17
 tags: workload databases microservices event-driven
 ---
-## Progress report so far!
+## Final Report for Science Gateways Course!
 For the past two weeks, I have been working on the following work-items:
 1. Continuing the work on event-driven database replication for Apache Airavata microservices.
 2. Working with Ajinkya and Amruta on the Distributed Task Execution project.
